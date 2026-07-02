@@ -1,5 +1,8 @@
 namespace SS14.Watchdog.Configuration.Updates
 {
+    /// <summary>
+    /// Configuration for <see cref="SS14.Watchdog.Components.Updates.UpdateProviderGit"/>.
+    /// </summary>
     public class UpdateProviderGitConfiguration
     {
         /// <summary> Git repository URL. Not to be confused with the other BaseUrl. </summary>

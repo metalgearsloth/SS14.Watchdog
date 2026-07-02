@@ -1,5 +1,8 @@
 ﻿namespace SS14.Watchdog.Configuration.Updates
 {
+    /// <summary>
+    /// Configuration for <see cref="SS14.Watchdog.Components.Updates.UpdateProviderManifest"/>.
+    /// </summary>
     public class UpdateProviderManifestConfiguration
     {
         public string ManifestUrl { get; set; } = null!;

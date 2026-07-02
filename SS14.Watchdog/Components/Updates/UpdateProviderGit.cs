@@ -16,6 +16,13 @@ using SS14.Watchdog.Configuration.Updates;
 
 namespace SS14.Watchdog.Components.Updates
 {
+    /// <summary>
+    /// Builds and packages the server from a Git repository on the watchdog host, then applies the produced
+    /// server zip as the instance's server binaries. Use this for local development or hosts that intentionally
+    /// build from source on the deployment machine. It requires Git, .NET, and optionally Python depending on
+    /// the repository packaging layout.
+    /// </summary>
+    /// <seealso cref="UpdateProviderGitConfiguration"/>
     public class UpdateProviderGit : UpdateProvider
     {
         private readonly ServerInstance _serverInstance;
